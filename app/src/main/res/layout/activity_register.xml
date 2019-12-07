@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txv_register_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrar na Aplicação"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txv_register_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preencha o Formulario abaixo, suas informações serão armazenadas em nossos banco de dados para possibilitar o uso da aplicação. Suas informações continuaram sendo sigilosas e não poderam ser comercializadas de quer forma." />
+
+        <EditText
+            android:id="@+id/edt_register_display_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nome"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edt_register_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Usuario"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edt_register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digite uma Senha"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/edt_register_password_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Confirme o Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

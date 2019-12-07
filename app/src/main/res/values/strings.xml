@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Work Share</string>
+    <string name="title_project">Projetos</string>
+    <string name="title_report">Relatórios</string>
+    <string name="title_profile">Perfil</string>
+    <string name="title_activity_login">Acessar</string>
+    <string name="prompt_email">Usuário</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Acessar ou se Cadastrar</string>
+    <string name="action_sign_in_short">Acessar</string>
+    <string name="welcome">"Bem vindo !"</string>
+    <string name="invalid_username">Usuário invalido</string>
+    <string name="invalid_password">Senha deve ser >5 caracteres</string>
+    <string name="login_failed">"Login falhou"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="new_project_text">Escreva abaixo o nome e descrição abaixo.</string>
+    <string name="action_register">Registrar</string>
+</resources>
